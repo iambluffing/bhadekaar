@@ -1,0 +1,55 @@
+<svg width="1200" height="630"
+  xmlns="http://www.w3.org/2000/svg">
+
+<rect width="1200" height="630"
+   fill="#0F172A"/>
+
+<text x="80"
+   y="180"
+   font-size="72"
+   font-family="Arial"
+   font-weight="bold"
+   fill="white">
+BhadeKaar </text>
+
+<text x="80"
+   y="270"
+   font-size="40"
+   font-family="Arial"
+   fill="#F97316">
+Equipment, Materials & Services </text>
+
+<text x="80"
+   y="340"
+   font-size="32"
+   font-family="Arial"
+   fill="white">
+Serving Goa </text>
+
+<rect x="760"
+   y="140"
+   width="300"
+   height="180"
+   rx="15"
+   fill="#14B8A6"/>
+
+<text x="790"
+   y="245"
+   font-size="36"
+   fill="white">
+Vehicles </text>
+
+<rect x="760"
+   y="360"
+   width="300"
+   height="180"
+   rx="15"
+   fill="#F97316"/>
+
+<text x="790"
+   y="465"
+   font-size="36"
+   fill="white">
+Services </text>
+
+</svg>

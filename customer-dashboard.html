@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Dashboard | BhadeKaar</title>
+
+```
+<link rel="stylesheet" href="css/styles.css">
+```
+
+</head>
+<body>
+
+<div class="dashboard">
+
+```
+<aside class="sidebar">
+
+    <h2>BhadeKaar</h2>
+
+    <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">My Bookings</a></li>
+        <li><a href="#">Order History</a></li>
+        <li><a href="#">Saved Vendors</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="index.html">Back to Website</a></li>
+    </ul>
+
+</aside>
+
+<main class="dashboard-content">
+
+    <h1 style="margin-bottom:25px;">
+        Customer Dashboard
+    </h1>
+
+    <div class="stats-grid">
+
+        <div class="stat-card">
+            <p>Active Bookings</p>
+            <h3>2</h3>
+        </div>
+
+        <div class="stat-card">
+            <p>Completed Orders</p>
+            <h3>14</h3>
+        </div>
+
+        <div class="stat-card">
+            <p>Saved Vendors</p>
+            <h3>6</h3>
+        </div>
+
+        <div class="stat-card">
+            <p>Pending Requests</p>
+            <h3>3</h3>
+        </div>
+
+    </div>
+
+    <section style="margin-top:40px;">
+
+        <h2 style="text-align:left;margin-bottom:20px;">
+            Quick Booking
+        </h2>
+
+        <div class="card">
+
+            <select style="width:100%;padding:12px;margin-bottom:12px;">
+                <option>Select Requirement</option>
+                <option>JCB</option>
+                <option>Tipper</option>
+                <option>Excavator</option>
+                <option>Cement</option>
+                <option>Steel</option>
+                <option>Electrician</option>
+                <option>Plumber</option>
+                <option>Carpenter</option>
+            </select>
+
+            <input
+                type="text"
+                placeholder="Location"
+                style="width:100%;padding:12px;margin-bottom:12px;">
+
+            <button class="cta-btn">
+                Search Providers
+            </button>
+
+        </div>
+
+    </section>
+
+    <section style="margin-top:40px;">
+
+        <h2 style="text-align:left;margin-bottom:20px;">
+            Active Bookings
+        </h2>
+
+        <div class="card">
+
+            <table style="width:100%;border-collapse:collapse;">
+
+                <tr>
+                    <th align="left">Requirement</th>
+                    <th align="left">Vendor</th>
+                    <th align="left">Status</th>
+                </tr>
+
+                <tr>
+                    <td>JCB</td>
+                    <td>Goa Earthmovers</td>
+                    <td>In Progress</td>
+                </tr>
+
+                <tr>
+                    <td>Electrician</td>
+                    <td>Goa Electrical Works</td>
+                    <td>Assigned</td>
+                </tr>
+
+            </table>
+
+        </div>
+
+    </section>
+
+    <section style="margin-top:40px;">
+
+        <h2 style="text-align:left;margin-bottom:20px;">
+            Recent Order History
+        </h2>
+
+        <div class="card">
+
+            <ul style="list-style:none;">
+
+                <li>✔ Cement Delivery - Completed</li>
+                <li>✔ Sand Supply - Completed</li>
+                <li>✔ Plumbing Service - Completed</li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+    <section style="margin-top:40px;">
+
+        <h2 style="text-align:left;margin-bottom:20px;">
+            Profile Information
+        </h2>
+
+        <div class="card">
+
+            <p><strong>Name:</strong> Customer Name</p>
+            <p><strong>Email:</strong> customer@email.com</p>
+            <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
+            <p><strong>Location:</strong> Goa</p>
+
+        </div>
+
+    </section>
+
+</main>
+```
+
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+<svg width="320" height="80" viewBox="0 0 320 80" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="80" fill="white"/>
+
+  <g transform="translate(10,15)">
+    <path d="M10 35 L20 15 L45 15 L55 35" fill="#F97316"/>
+    <rect x="15" y="35" width="35" height="18" rx="3" fill="#0F172A"/>
+    <circle cx="22" cy="57" r="5" fill="#14B8A6"/>
+    <circle cx="43" cy="57" r="5" fill="#14B8A6"/>
+  </g>
+
+<text x="80" y="48"
+     font-size="32"
+     font-family="Arial, sans-serif"
+     font-weight="bold"
+     fill="#0F172A">
+BhadeKaar </text> </svg>

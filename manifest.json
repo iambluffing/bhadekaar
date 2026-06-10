@@ -1,0 +1,16 @@
+{
+"name": "BhadeKaar",
+"short_name": "BhadeKaar",
+"description": "Equipment, Materials & Services – All in One Place.",
+"start_url": "/",
+"display": "standalone",
+"background_color": "#FFFFFF",
+"theme_color": "#0F172A",
+"icons": [
+{
+"src": "assets/favicon.svg",
+"sizes": "any",
+"type": "image/svg+xml"
+}
+]
+}
